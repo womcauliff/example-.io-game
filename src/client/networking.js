@@ -8,7 +8,7 @@ import { processGameUpdate } from './state';
 const Constants = require('../shared/constants');
 
 const socket = io(
-  `${window.location.host !== 'localhost' ? 'wss' : 'ws'}://${window.location.host}`,
+  `${window.location.hostname !== 'localhost' ? 'wss' : 'ws'}://${window.location.host}`,
   { reconnection: false },
 );
 const connectedPromise = new Promise(resolve => {
