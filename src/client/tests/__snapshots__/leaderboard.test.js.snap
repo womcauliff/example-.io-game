@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`updateLeaderboard updates leaderboard after game state update 1`] = `
+<div
+  class="hidden"
+  id="leaderboard"
+>
+  
+
+  <div
+    class=""
+    id="leaderboard"
+  >
+    
+  
+    <table>
+      
+    
+      <tbody>
+        <tr>
+          
+      
+          <th>
+            Username
+          </th>
+          
+      
+          <th>
+            Score
+          </th>
+          
+    
+        </tr>
+        
+    
+        <tr>
+          <td />
+          <td />
+        </tr>
+        
+    
+        <tr>
+          <td />
+          <td />
+        </tr>
+        
+    
+        <tr>
+          <td />
+          <td />
+        </tr>
+        
+    
+        <tr>
+          <td />
+          <td />
+        </tr>
+        
+    
+        <tr>
+          <td />
+          <td />
+        </tr>
+        
+  
+      </tbody>
+    </table>
+    
+
+  </div>
+  
+
+</div>
+`;
